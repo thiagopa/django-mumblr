@@ -12,7 +12,6 @@ from django.template import defaultfilters
 
 from datetime import datetime, time
 from mongoengine.django.auth import REDIRECT_FIELD_NAME
-from pymongo.son import SON
 import string
 
 from mumblr.entrytypes import markup, EntryType
